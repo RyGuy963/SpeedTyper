@@ -150,7 +150,6 @@ text.addEventListener('input', e => {
   if(insertedText === randomWord) {
     addWordToDOM();
     updateScore();
-    //Clear
     e.target.value = '';
   }
 });
